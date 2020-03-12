@@ -23,7 +23,7 @@ function createSocket(messageHandler) {
     url.format({
       protocol: window.location.protocol,
       hostname: window.location.hostname,
-      port: window.location.port,
+      port: 3035,
       // TODO: Support usage of custom sockets after WDS 4.0 is released
       // Ref: https://github.com/webpack/webpack-dev-server/pull/2055
       pathname: '/sockjs-node',
